@@ -1,5 +1,5 @@
 
-# Vireon API
+# Vireon
 
 A moderation API made with care & love by Abdelkhaliq, built for real-world impact. It leverages AI-driven analysis and detection, designed for scalability and open collaboration.
 ## Features
