@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const response = await fetch('http://vireon.up.railway.app/v1/analyze/content/', {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer testcase',
+                    'Authorization': 'Bearer 46bb03aeae5b12af68a292a055109d7a21fb5b0a98549f816b636f0eb843ec50',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({ user_input: textInput })
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const response = await fetch('http://vireon.up.railway.app/v1/analyze/content/', {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer testcase'
+                    'Authorization': 'Bearer 46bb03aeae5b12af68a292a055109d7a21fb5b0a98549f816b636f0eb843ec50'
                 },
                 body: formData
             });
