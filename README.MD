@@ -8,77 +8,7 @@ A moderation API made with care & love by Abdelkhaliq, built for real-world impa
 - 🧱 **Modular design**: plug-and-play components for flexible integration
 - 📦 **Reproducible setup**: streamlined onboarding and isolated environments
 - 🧠 **Educational tooling**: built for targeted use, not mass deployment
-## Run Locally
 
-*Simple and crystal-clear installation*
-
-Clone the project
-
-```bash
-git clone https://github.com/bondo2-hub/VireonAPI.git
-```
-
-Go to the project directory
-
-```bash
-cd VireonAPI
-```
-
-Install dependencies
-
-```bash
-pipenv install -r requirements.txt
-```
-
-Or
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Generate a SECRET_KEY
-
-```bash
-cd base/management
-python3 generate_secret_key.py
-```
-
-- *Store your newly generated key in the `.env` file in the `SECRET_KEY` variable.*
-
-Get your own GEMINI_API_KEY
-
-- Since this project relies on gemini, you'll have to get an API Key and store it in the `env` file in the `GEMINI_API_KEY` variable.
-
-Start the server
-
-```bash
-python manage.py migrate
-python manage.py collectstatic # Admin & rest_framework static files (css,js)
-python manage.py runserver
-```
-
-- After all these steps, your server should start with no interruptions or any problems.
-## Quick Start (Optional)
-
-I've made a file for quick API Text & image moderation and detection. Just for simple testing
-
-```bash
-python -m base.configuration.moderate --text "Your text here"    # Text moderation
-python -m base.configuration.moderate --image "Your image_url here" # Image moderation
-```
-
-**Results** should be something like this:
-```
-{
-    "violation": true (true or false),
-    "harm_type": [profanity] (list of harm types),
-    "confidence": 0.97 (float 0 to 1),
-    "severity": "moderate",
-    "reasoning": string (only include if violation is true),
-}
-```
 ## API Reference
 
 #### Text Moderation Endpoint
@@ -128,7 +58,7 @@ See `contributing.md` for ways to get started.
 Please adhere to this project's `code of conduct`.
 ## Authors
 
-- [@abdelkhaliq](https://www.github.com/bondo2-hub)
+- [@abdelkhaliq](https://www.github.com/abde1khaliq)
 ## Support
 
 For support, email ahmedthek3@gmail.com. Or join or Discord server [Vireon HQ](https://discord.gg/pQTqppHmp8)
