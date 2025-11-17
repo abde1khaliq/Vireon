@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         try {
             // Make API call with proper authorization
-            const response = await fetch('http://vireon.up.railway.app/v1/analyze/content/', {
+            const response = await fetch('https://vireon.up.railway.app/v1/analyze/content/', {
                 method: 'POST',
                 headers: {
                     'Authorization': 'Bearer 46bb03aeae5b12af68a292a055109d7a21fb5b0a98549f816b636f0eb843ec50',
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
             formData.append('image', imageInput.files[0]);
 
             // Make API call with proper authorization for image
-            const response = await fetch('http://vireon.up.railway.app/v1/analyze/content/', {
+            const response = await fetch('https://vireon.up.railway.app/v1/analyze/content/', {
                 method: 'POST',
                 headers: {
                     'Authorization': 'Bearer 46bb03aeae5b12af68a292a055109d7a21fb5b0a98549f816b636f0eb843ec50'
