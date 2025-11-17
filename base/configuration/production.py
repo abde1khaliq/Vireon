@@ -77,5 +77,5 @@ if DEBUG:
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://vireon.up.railway.app/',
+    'https://vireon.up.railway.app',
 ]
