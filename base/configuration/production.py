@@ -16,7 +16,6 @@ from decouple import config, Csv
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
-print("Raw ALLOWED_HOSTS:", config('ALLOWED_HOSTS'))
 
 DB_ENGINE = config('DB_ENGINE', default='sqlite')
 
