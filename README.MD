@@ -61,14 +61,7 @@ Please adhere to this project's `code of conduct`.
 - [@abdelkhaliq](https://www.github.com/abde1khaliq)
 ## Support
 
-For support, email ahmedthek3@gmail.com. Or join or Discord server [Vireon HQ](https://discord.gg/pQTqppHmp8)
-## Feedback
-
 If you have any feedback, please reach out to us at ahmedthek3@gmail.com
-
-Discord; `abde1khaliq._`
-
-[VireonHQ Discord](https://discord.gg/pQTqppHmp8)
 
 ## License
 
