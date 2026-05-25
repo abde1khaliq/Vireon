@@ -61,7 +61,7 @@ Please adhere to this project's `code of conduct`.
 - [@abdelkhaliq](https://www.github.com/abde1khaliq)
 ## Support
 
-If you have any feedback, please reach out to us at ahmedthek3@gmail.com
+If you have any feedback, please reach out to us at abdelkhaliqqq@gmail.com
 
 ## License
 
